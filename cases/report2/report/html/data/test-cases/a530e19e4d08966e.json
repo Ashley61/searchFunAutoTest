@@ -1,0 +1,165 @@
+{
+  "uid" : "a530e19e4d08966e",
+  "name" : "test_number_search",
+  "fullName" : "test_SearchInterface#test_number_search",
+  "historyId" : "8d7769c3f217c9f94fd2d29dd5a24747",
+  "time" : {
+    "start" : 1666324030713,
+    "stop" : 1666324030835,
+    "duration" : 122
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_function",
+    "time" : {
+      "start" : 1666324030711,
+      "stop" : 1666324030711,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a68373bcd9dd320",
+      "name" : "stdout",
+      "source" : "a68373bcd9dd320.txt",
+      "type" : "text/plain",
+      "size" : 39
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_function::0",
+    "time" : {
+      "start" : 1666324030836,
+      "stop" : 1666324030837,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "百度搜索"
+  }, {
+    "name" : "suite",
+    "value" : "test_SearchInterface"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2N4CHJQ"
+  }, {
+    "name" : "thread",
+    "value" : "23280-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_SearchInterface"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "22f7c9713706df82",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 502 == 200\n +  where 502 = <Response [502]>.status_code",
+      "time" : {
+        "start" : 1666324007887,
+        "stop" : 1666324008387,
+        "duration" : 500
+      }
+    }, {
+      "uid" : "752e3283b4d9f431",
+      "status" : "passed",
+      "time" : {
+        "start" : 1666323998517,
+        "stop" : 1666323998640,
+        "duration" : 123
+      }
+    }, {
+      "uid" : "f61f448bfd660077",
+      "status" : "passed",
+      "time" : {
+        "start" : 1666323988075,
+        "stop" : 1666323988194,
+        "duration" : 119
+      }
+    }, {
+      "uid" : "75588bb12ff1cfef",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 502 == 200\n +  where 502 = <Response [502]>.status_code",
+      "time" : {
+        "start" : 1666323979211,
+        "stop" : 1666323979446,
+        "duration" : 235
+      }
+    }, {
+      "uid" : "24a525f1572add34",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 502 == 200\n +  where 502 = <Response [502]>.status_code",
+      "time" : {
+        "start" : 1666323968600,
+        "stop" : 1666323968836,
+        "duration" : 236
+      }
+    }, {
+      "uid" : "776e0889335b2d2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1666323958040,
+        "stop" : 1666323958161,
+        "duration" : 121
+      }
+    }, {
+      "uid" : "5f991f8b35b942e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1666323950332,
+        "stop" : 1666323950491,
+        "duration" : 159
+      }
+    }, {
+      "uid" : "82c14434e1707ba6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1666323918841,
+        "stop" : 1666323918966,
+        "duration" : 125
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a530e19e4d08966e.json",
+  "parameterValues" : [ ]
+}

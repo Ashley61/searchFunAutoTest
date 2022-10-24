@@ -1,0 +1,96 @@
+{
+  "uid" : "e39f32eeef419def",
+  "name" : "test_chinese_search",
+  "fullName" : "test_SearchInterface#test_chinese_search",
+  "historyId" : "25f84ee7c4732ce0f83e66be01b8f44b",
+  "time" : {
+    "start" : 1666323987671,
+    "stop" : 1666323987790,
+    "duration" : 119
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_function",
+    "time" : {
+      "start" : 1666323987670,
+      "stop" : 1666323987670,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2735f114d9884a54",
+      "name" : "stdout",
+      "source" : "2735f114d9884a54.txt",
+      "type" : "text/plain",
+      "size" : 36
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_function::0",
+    "time" : {
+      "start" : 1666323987791,
+      "stop" : 1666323987792,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "百度搜索"
+  }, {
+    "name" : "suite",
+    "value" : "test_SearchInterface"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2N4CHJQ"
+  }, {
+    "name" : "thread",
+    "value" : "27936-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_SearchInterface"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e39f32eeef419def.json",
+  "parameterValues" : [ ]
+}

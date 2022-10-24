@@ -1,0 +1,33 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "searchAutoTest.cases.searchTest",
+    "children" : [ {
+      "name" : "test_SearchFun[selenium]",
+      "uid" : "46fbaa0468571272",
+      "parentUid" : "a2c7f8f891a53544e811b92b4ed6eb49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1666323293627,
+        "stop" : 1666323305548,
+        "duration" : 11921
+      },
+      "flaky" : true,
+      "parameters" : [ "'selenium'" ]
+    }, {
+      "name" : "test_SearchFun[allure]",
+      "uid" : "b1c44ee7f1240225",
+      "parentUid" : "a2c7f8f891a53544e811b92b4ed6eb49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1666323305554,
+        "stop" : 1666323317298,
+        "duration" : 11744
+      },
+      "flaky" : true,
+      "parameters" : [ "'allure'" ]
+    } ],
+    "uid" : "searchAutoTest.cases.searchTest"
+  } ]
+}

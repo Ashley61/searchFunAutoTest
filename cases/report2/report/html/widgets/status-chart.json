@@ -1,0 +1,81 @@
+[ {
+  "uid" : "9bf24768fa7ee5f7",
+  "name" : "test_English_search",
+  "time" : {
+    "start" : 1666324029525,
+    "stop" : 1666324030301,
+    "duration" : 776
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef60741db782f1a9",
+  "name" : "test_longContent_search",
+  "time" : {
+    "start" : 1666324031977,
+    "stop" : 1666324032092,
+    "duration" : 115
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a530e19e4d08966e",
+  "name" : "test_number_search",
+  "time" : {
+    "start" : 1666324030713,
+    "stop" : 1666324030835,
+    "duration" : 122
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da8240904de00f81",
+  "name" : "test_containSpace_search",
+  "time" : {
+    "start" : 1666324030579,
+    "stop" : 1666324030699,
+    "duration" : 120
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b607e9c61446b859",
+  "name" : "test_noCondition_search",
+  "time" : {
+    "start" : 1666324030441,
+    "stop" : 1666324030565,
+    "duration" : 124
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "95f310ac21120b7b",
+  "name" : "test_chinese_search",
+  "time" : {
+    "start" : 1666324030305,
+    "stop" : 1666324030434,
+    "duration" : 129
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6dad2775d208550a",
+  "name" : "test_symbol_search",
+  "time" : {
+    "start" : 1666324030843,
+    "stop" : 1666324031970,
+    "duration" : 1127
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "56cc21462d8fb523",
+  "name" : "test_null_search",
+  "time" : {
+    "start" : 1666324032098,
+    "stop" : 1666324032273,
+    "duration" : 175
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

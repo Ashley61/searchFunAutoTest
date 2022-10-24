@@ -1,0 +1,100 @@
+{
+  "uid" : "bee59a4019ed3ce1",
+  "name" : "test_null_search",
+  "fullName" : "test_SearchInterface#test_null_search",
+  "historyId" : "63f4e0a1dbc23cbfe7933f046f67fc06",
+  "time" : {
+    "start" : 1666323919225,
+    "stop" : 1666323919458,
+    "duration" : 233
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 502 == 200\n +  where 502 = <Response [502]>.status_code",
+  "statusTrace" : "@allure.feature('百度搜索')\n    def test_null_search():\n        res = search_function(data=None)\n        print(\"none输入搜索：\", res.status_code)\n>       assert res.status_code == 200\nE       assert 502 == 200\nE        +  where 502 = <Response [502]>.status_code\n\ntest_SearchInterface.py:72: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_function",
+    "time" : {
+      "start" : 1666323919224,
+      "stop" : 1666323919224,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 502 == 200\n +  where 502 = <Response [502]>.status_code",
+    "statusTrace" : "@allure.feature('百度搜索')\n    def test_null_search():\n        res = search_function(data=None)\n        print(\"none输入搜索：\", res.status_code)\n>       assert res.status_code == 200\nE       assert 502 == 200\nE        +  where 502 = <Response [502]>.status_code\n\ntest_SearchInterface.py:72: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3329e8335bb3d428",
+      "name" : "stdout",
+      "source" : "3329e8335bb3d428.txt",
+      "type" : "text/plain",
+      "size" : 34
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_function::0",
+    "time" : {
+      "start" : 1666323919494,
+      "stop" : 1666323919494,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "百度搜索"
+  }, {
+    "name" : "suite",
+    "value" : "test_SearchInterface"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2N4CHJQ"
+  }, {
+    "name" : "thread",
+    "value" : "25772-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_SearchInterface"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bee59a4019ed3ce1.json",
+  "parameterValues" : [ ]
+}

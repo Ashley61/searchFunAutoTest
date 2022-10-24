@@ -1,0 +1,100 @@
+{
+  "uid" : "c8f62863a94eb7f3",
+  "name" : "test_symbol_search",
+  "fullName" : "test_SearchInterface#test_symbol_search",
+  "historyId" : "26a54263d44b97e96edda03e40dc82e7",
+  "time" : {
+    "start" : 1666323998655,
+    "stop" : 1666323998902,
+    "duration" : 247
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 502 == 200\n +  where 502 = <Response [502]>.status_code",
+  "statusTrace" : "@allure.feature('百度搜索')\n    def test_symbol_search():\n        res = search_function(\"zhangsan@163.com\")\n        print(\"含特殊字符输入搜索：\", res.status_code)\n>       assert res.status_code == 200\nE       assert 502 == 200\nE        +  where 502 = <Response [502]>.status_code\n\ntest_SearchInterface.py:58: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_function",
+    "time" : {
+      "start" : 1666323998653,
+      "stop" : 1666323998653,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 502 == 200\n +  where 502 = <Response [502]>.status_code",
+    "statusTrace" : "@allure.feature('百度搜索')\n    def test_symbol_search():\n        res = search_function(\"zhangsan@163.com\")\n        print(\"含特殊字符输入搜索：\", res.status_code)\n>       assert res.status_code == 200\nE       assert 502 == 200\nE        +  where 502 = <Response [502]>.status_code\n\ntest_SearchInterface.py:58: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "613f82962d85bf6b",
+      "name" : "stdout",
+      "source" : "613f82962d85bf6b.txt",
+      "type" : "text/plain",
+      "size" : 45
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_function::0",
+    "time" : {
+      "start" : 1666323998915,
+      "stop" : 1666323998916,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "百度搜索"
+  }, {
+    "name" : "suite",
+    "value" : "test_SearchInterface"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2N4CHJQ"
+  }, {
+    "name" : "thread",
+    "value" : "34516-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_SearchInterface"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c8f62863a94eb7f3.json",
+  "parameterValues" : [ ]
+}

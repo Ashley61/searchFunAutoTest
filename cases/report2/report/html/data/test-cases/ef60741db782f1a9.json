@@ -1,0 +1,163 @@
+{
+  "uid" : "ef60741db782f1a9",
+  "name" : "test_longContent_search",
+  "fullName" : "test_SearchInterface#test_longContent_search",
+  "historyId" : "0ad5c390a93c26ab72a86d581308b267",
+  "time" : {
+    "start" : 1666324031977,
+    "stop" : 1666324032092,
+    "duration" : 115
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_function",
+    "time" : {
+      "start" : 1666324031976,
+      "stop" : 1666324031976,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "234a5f8f89b6da0e",
+      "name" : "stdout",
+      "source" : "234a5f8f89b6da0e.txt",
+      "type" : "text/plain",
+      "size" : 36
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_function::0",
+    "time" : {
+      "start" : 1666324032093,
+      "stop" : 1666324032093,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "百度搜索"
+  }, {
+    "name" : "suite",
+    "value" : "test_SearchInterface"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2N4CHJQ"
+  }, {
+    "name" : "thread",
+    "value" : "23280-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_SearchInterface"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d98a951c5c0091d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1666324008527,
+        "stop" : 1666324008646,
+        "duration" : 119
+      }
+    }, {
+      "uid" : "9e4f99dcebe63427",
+      "status" : "passed",
+      "time" : {
+        "start" : 1666323998924,
+        "stop" : 1666323999050,
+        "duration" : 126
+      }
+    }, {
+      "uid" : "4bf959ba0b74fa4f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 502 == 200\n +  where 502 = <Response [502]>.status_code",
+      "time" : {
+        "start" : 1666323988356,
+        "stop" : 1666323988599,
+        "duration" : 243
+      }
+    }, {
+      "uid" : "4f5a308d86c323fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1666323979606,
+        "stop" : 1666323979733,
+        "duration" : 127
+      }
+    }, {
+      "uid" : "735999284d7905e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1666323969029,
+        "stop" : 1666323969145,
+        "duration" : 116
+      }
+    }, {
+      "uid" : "ea5df4fe6e85e613",
+      "status" : "passed",
+      "time" : {
+        "start" : 1666323958327,
+        "stop" : 1666323958453,
+        "duration" : 126
+      }
+    }, {
+      "uid" : "db3efcc63fbb7213",
+      "status" : "passed",
+      "time" : {
+        "start" : 1666323950623,
+        "stop" : 1666323950758,
+        "duration" : 135
+      }
+    }, {
+      "uid" : "7d0da335109c10d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1666323919095,
+        "stop" : 1666323919219,
+        "duration" : 124
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ef60741db782f1a9.json",
+  "parameterValues" : [ ]
+}

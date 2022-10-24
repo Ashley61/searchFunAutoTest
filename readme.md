@@ -1,0 +1,8 @@
+UI自动化使用到selenium，请先配置help.yaml中chromeDriver路径
+
+运行main.py文件即可开始百度搜索功能的UI自动化case
+
+report文件夹下存放的是UI自动化结果的allure报告和截图
+
+
+cases/report2文件夹下存放的是接口自动化case结果的allure报告

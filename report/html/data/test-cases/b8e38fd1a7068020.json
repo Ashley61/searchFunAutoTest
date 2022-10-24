@@ -1,0 +1,59 @@
+{
+  "uid" : "b8e38fd1a7068020",
+  "name" : "test_SearchFun[selenium]",
+  "fullName" : "searchAutoTest.cases.searchTest#test_SearchFun",
+  "historyId" : "ac3fd62f7594ed78da95f39857249e39",
+  "time" : {
+    "start" : 1666322979524,
+    "stop" : 1666322979524,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "FileNotFoundError: [Errno 2] No such file or directory: '../help.yaml'",
+  "statusTrace" : "test_data = 'selenium'\n\n    @allure.testcase(\"搜索功能\")\n    @pytest.mark.parametrize('test_data',['selenium','allure'])\n    def test_SearchFun(test_data):\n    \n>       with open(\"../help.yaml\", encoding='utf-8') as file:\nE       FileNotFoundError: [Errno 2] No such file or directory: '../help.yaml'\n\ncases\\searchTest.py:14: FileNotFoundError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "searchTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "searchAutoTest.cases"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2N4CHJQ"
+  }, {
+    "name" : "thread",
+    "value" : "35520-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "searchAutoTest.cases.searchTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "'selenium'"
+  } ],
+  "links" : [ {
+    "name" : "搜索功能",
+    "url" : "搜索功能",
+    "type" : "test_case"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b8e38fd1a7068020.json",
+  "parameterValues" : [ "'selenium'" ]
+}
